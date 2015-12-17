@@ -35,12 +35,12 @@ We assign a color to each affine function in an IFS file. To color the IFS, we c
 #IFS File Format
 IFS files (located in the IFS folder) follow the following format:
 ```
-n                  (The number of affine functions)
+n                                           (The number of affine functions)
 
-a1 b1 c1 d1 e1 f1  (The six coefficients of the affine function)
-p1                 (The probability of the affine function)
-red1 green1 blue1  (The RGB values assigned to the given affine function)
-apost1 bpost1 cpost1 dpost1 epost1  (post transforms of the given affine function)
+a1 b1 c1 d1 e1 f1                           (The six coefficients of the affine function)
+p1                                          (The probability of the affine function)
+red1 green1 blue1                           (The RGB values assigned to the given affine function)
+apost1 bpost1 cpost1 dpost1 epost1          (post transforms of the given affine function)
 
 a2 b2 c2 d2 e2 f2
 p2
