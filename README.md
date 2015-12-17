@@ -1,4 +1,7 @@
-# Assignment 1: DrawSVG
+# Assignment 5: IFS Renderer
+
+# See Project Images Here -> <http://imgur.com/a/MBm6H>
+
 For our final project, we decided to extend/modify our SVG-drawer to render fractals from Iterated Function Systems.
 The program takes in a file that includes the basic Iterated Function System as well as a text file that creates varations of said IFS.
 You can also specify how many points you wish to plot. Increasing this number will make your output fractal look smoother and cleaner at the cost 
@@ -48,4 +51,3 @@ a b c d e f (Final Affine Transform)
 
 
 
-<http://imgur.com/a/MBm6H>
