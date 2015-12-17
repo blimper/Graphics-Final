@@ -116,6 +116,10 @@ struct Image : SVGElement {
 
 struct SVG {
 
+
+  int iterations;
+  const char* file;
+  const char* variations;
   ~SVG();
   float width, height;
   std::vector<SVGElement*> elements;
@@ -125,7 +129,7 @@ struct SVG {
 class SVGParser {
  public:
 
-  static int load( const char* filename, SVG* svg );
+  static int load( const char* filename, SVG* svg, const char* iters);
   static int save( const char* filename, const SVG* svg );
  
  private:

@@ -1,0 +1,556 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  Affine(FILE * variations, double a, double b, double c, double d, double e, double f, double prob)$/;"	f	language:C++	class:CMU462::Affine
+Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^class Affine {$/;"	c	language:C++	namespace:CMU462
+Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  Affine(std::vector<V*> v, double a, double b, double c, double d, double e, double f, double prob, double c1, double c2, double c3)$/;"	f	language:C++	class:CMU462::Affine
+Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^class Affine {$/;"	c	language:C++	namespace:CMU462
+apply_variations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  Vector2D apply_variations(Vector2D v)$/;"	f	language:C++	class:CMU462::Affine
+apply_variations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  Vector2D apply_variations(Vector2D p)$/;"	f	language:C++	class:CMU462::Affine
+auto_adjust	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::auto_adjust(size_t tab_index) {$/;"	f	language:C++	class:CMU462::DrawSVG
+auto_adjust	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void auto_adjust(size_t tab_index);$/;"	p	language:C++	class:CMU462::DrawSVG
+BILINEAR	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  BILINEAR,$/;"	e	language:C++	enum:CMU462::SampleMethod
+c	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^  Color c;$/;"	m	language:C++	struct:CMU462::temp	file:
+canvas_to_screen	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  Matrix3x3 canvas_to_screen;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+canvas_to_screen	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  Matrix3x3 canvas_to_screen;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+center	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D center;$/;"	m	language:C++	struct:CMU462::Ellipse
+center	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D center;$/;"	m	language:C++	struct:CMU462::Ellipse
+clear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::clear( void ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+clear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void clear( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+clear_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  inline void clear_target() {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+clear_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  inline void clear_target() {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^namespace CMU462 { \/\/ CMU462$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/viewport.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^namespace CMU462 {$/;"	n	language:C++	file:
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^namespace CMU462 { \/\/ CMU462$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^namespace CMU462 {$/;"	n	language:C++
+CMU462_DRAWSVG_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	2;"	d	language:C++
+CMU462_SOFTWARE_RENDERER_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	2;"	d	language:C++
+CMU462_SOFTWARE_RENDERER_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	2;"	d	language:C++
+CMU462_SVG_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	2;"	d	language:C++
+CMU462_SVG_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	2;"	d	language:C++
+CMU462_TEXTURE_H	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	2;"	d	language:C++
+color	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  double color [3];$/;"	m	language:C++	class:CMU462::Affine
+colorWeight	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^float colorWeight(MipLevel *miplevel, int index, int offset, float diffx, float diffy)$/;"	f	language:C++	namespace:CMU462
+current_tab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<SVG*> tabs; size_t current_tab;$/;"	m	language:C++	class:CMU462::DrawSVG
+cursor_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::cursor_event( float x, float y, unsigned char keys ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+cursor_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void cursor_event( float x, float y, unsigned char keys );$/;"	p	language:C++	class:CMU462::DrawSVG
+cursor_x	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  float cursor_x; float cursor_y;$/;"	m	language:C++	class:CMU462::DrawSVG
+cursor_y	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  float cursor_x; float cursor_y;$/;"	m	language:C++	class:CMU462::DrawSVG
+dec_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::dec_sample_rate() {$/;"	f	language:C++	class:CMU462::DrawSVG
+dec_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void dec_sample_rate();$/;"	p	language:C++	class:CMU462::DrawSVG
+delTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::delTab( size_t tab_index ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+delTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void delTab(size_t tab_index);$/;"	p	language:C++	class:CMU462::DrawSVG
+dimension	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D dimension;$/;"	m	language:C++	struct:CMU462::Image
+dimension	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D dimension;$/;"	m	language:C++	struct:CMU462::Rect
+dimension	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D dimension;$/;"	m	language:C++	struct:CMU462::Image
+dimension	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D dimension;$/;"	m	language:C++	struct:CMU462::Rect
+display_pixels	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::display_pixels( const unsigned char* pixels ) const {$/;"	f	language:C++	class:CMU462::DrawSVG
+display_pixels	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void display_pixels( const unsigned char* pixels ) const;$/;"	p	language:C++	class:CMU462::DrawSVG
+drawIllustration	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void drawIllustration( SVG& svg );$/;"	p	language:C++	class:CMU462::DrawSVG
+DrawSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  DrawSVG() : $/;"	f	language:C++	class:CMU462::DrawSVG
+DrawSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^class DrawSVG : public Renderer {$/;"	c	language:C++	namespace:CMU462
+draw_diff	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::draw_diff() {$/;"	f	language:C++	class:CMU462::DrawSVG
+draw_diff	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void draw_diff();$/;"	p	language:C++	class:CMU462::DrawSVG
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_element( SVGElement* element ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_element( SVGElement* element );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_element( SVGElement* element );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_element( SVGElement* element ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_element( SVGElement* element );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_element	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_element( SVGElement* element );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_ellipse( Ellipse& ellipse ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_ellipse( Ellipse& ellipse );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_ellipse( Ellipse& ellipse );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_ellipse( Ellipse& ellipse ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_ellipse( Ellipse& ellipse );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_ellipse( Ellipse& ellipse );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_group( Group& group ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_group( Group& group );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_group( Group& group );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_group( Group& group ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_group( Group& group );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_group( Group& group );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_image( Image& image ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_image( Image& image );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_image( Image& image );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_image( Image& image ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_image( Image& image );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_image( Image& image );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_line( Line& line ) { $/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_line( Line& line );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_line( Line& line );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_line( Line& line ) { $/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_line( Line& line );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_line( Line& line );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_point( Point& point ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_point( Point& p );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_point( Point& p );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_point( Point& point ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_point( Point& p );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_point( Point& p );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_polygon( Polygon& polygon ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_polygon( Polygon& polygon );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_polygon( Polygon& polygon );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_polygon( Polygon& polygon ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_polygon( Polygon& polygon );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_polygon( Polygon& polygon );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_polyline( Polyline& polyline ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_polyline( Polyline& polyline );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_polyline( Polyline& polyline );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_polyline( Polyline& polyline ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_polyline( Polyline& polyline );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_polyline( Polyline& polyline );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_rect( Rect& rect ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_rect ( Rect& rect );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_rect ( Rect& rect );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_rect( Rect& rect ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_rect ( Rect& rect );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_rect ( Rect& rect );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_svg( SVG& svg) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  virtual void draw_svg( SVG& svg ) = 0;$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_svg( SVG& svg );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void draw_svg( SVG& svg);$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::draw_svg( SVG& svg) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  virtual void draw_svg( SVG& svg ) = 0;$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_svg( SVG& svg );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+draw_svg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void draw_svg( SVG& svg);$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+draw_zoom	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::draw_zoom() {$/;"	f	language:C++	class:CMU462::DrawSVG
+draw_zoom	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void draw_zoom();$/;"	p	language:C++	class:CMU462::DrawSVG
+elements	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  std::vector<SVGElement*> elements;$/;"	m	language:C++	struct:CMU462::Group
+elements	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  std::vector<SVGElement*> elements;$/;"	m	language:C++	struct:CMU462::SVG
+elements	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  std::vector<SVGElement*> elements;$/;"	m	language:C++	struct:CMU462::Group
+elements	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  std::vector<SVGElement*> elements;$/;"	m	language:C++	struct:CMU462::SVG
+Ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Ellipse() : SVGElement  ( ELLIPSE ) { }$/;"	f	language:C++	struct:CMU462::Ellipse
+ELLIPSE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  ELLIPSE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Ellipse : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Ellipse() : SVGElement  ( ELLIPSE ) { }$/;"	f	language:C++	struct:CMU462::Ellipse
+ELLIPSE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  ELLIPSE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Ellipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Ellipse : SVGElement {$/;"	s	language:C++	namespace:CMU462
+eval	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  Vector2D eval(Vector2D p) {$/;"	f	language:C++	class:CMU462::V
+eval	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D eval(Vector2D p) {$/;"	f	language:C++	class:CMU462::V
+evaluate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  Vector2D evaluate(Vector2D v){$/;"	f	language:C++	class:CMU462::Affine
+evaluate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  Vector2D evaluate(Vector2D v){$/;"	f	language:C++	class:CMU462::Affine
+evaluate_color	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  Color evaluate_color(Color in)$/;"	f	language:C++	class:CMU462::Affine
+e_SVGElementType	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^typedef enum e_SVGElementType {$/;"	g	language:C++	namespace:CMU462
+e_SVGElementType	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^typedef enum e_SVGElementType {$/;"	g	language:C++	namespace:CMU462
+file	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  const char* file;$/;"	m	language:C++	struct:CMU462::SVG
+file	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  const char* file;$/;"	m	language:C++	struct:CMU462::SVG
+fillColor	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Color fillColor;$/;"	m	language:C++	struct:CMU462::Style
+fillColor	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Color fillColor;$/;"	m	language:C++	struct:CMU462::Style
+fill_color	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void fill_color(int index, Color color)$/;"	f	language:C++	namespace:CMU462
+fill_pixel	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void fill_pixel( int x, int y, const Color& c );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+fill_pixel	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void fill_pixel( int x, int y, const Color& c );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+fill_sample	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void fill_sample( int sx, int sy, const Color& c );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+fill_sample	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void fill_sample( int sx, int sy, const Color& c );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+float_to_uint8	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^inline void float_to_uint8( unsigned char* dst, float src[4] ) {$/;"	f	language:C++	namespace:CMU462
+framebuffer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<unsigned char> framebuffer;$/;"	m	language:C++	class:CMU462::DrawSVG
+from	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D from;$/;"	m	language:C++	struct:CMU462::Line
+from	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D from;$/;"	m	language:C++	struct:CMU462::Line
+generate_mips	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^void Sampler2DImp::generate_mips(Texture& tex, int startLevel) {$/;"	f	language:C++	class:CMU462::Sampler2DImp
+generate_mips	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  virtual void generate_mips( Texture& tex, int startLevel ) = 0;$/;"	p	language:C++	class:CMU462::Sampler2D
+generate_mips	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  void generate_mips( Texture& tex, int startLevel );$/;"	p	language:C++	class:CMU462::Sampler2DImp
+generate_mips	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  void generate_mips( Texture& tex, int startLevel );$/;"	p	language:C++	class:CMU462::Sampler2DRef
+getErrorCount	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  int getErrorCount( void ) const;$/;"	p	language:C++	class:CMU462::DrawSVG
+get_sample_method	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  inline SampleMethod get_sample_method() const {$/;"	f	language:C++	class:CMU462::Sampler2D
+GROUP	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  GROUP$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Group() : SVGElement  ( GROUP ) { }$/;"	f	language:C++	struct:CMU462::Group
+Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Group : SVGElement {$/;"	s	language:C++	namespace:CMU462
+GROUP	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  GROUP$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Group() : SVGElement  ( GROUP ) { }$/;"	f	language:C++	struct:CMU462::Group
+Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Group : SVGElement {$/;"	s	language:C++	namespace:CMU462
+h	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+h	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+Hardware	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Hardware,$/;"	e	language:C++	enum:CMU462::RenderMethod
+hardware_renderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  HardwareRenderer* hardware_renderer;$/;"	m	language:C++	class:CMU462::DrawSVG
+height	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  size_t width, height;$/;"	m	language:C++	class:CMU462::DrawSVG
+height	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  float width, height;$/;"	m	language:C++	struct:CMU462::SVG
+height	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  size_t height;$/;"	m	language:C++	struct:CMU462::MipLevel
+height	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  size_t height;$/;"	m	language:C++	struct:CMU462::Texture
+height	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  float width, height;$/;"	m	language:C++	struct:CMU462::SVG
+Image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Image() : SVGElement  ( IMAGE ) { }$/;"	f	language:C++	struct:CMU462::Image
+IMAGE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  IMAGE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Image : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Image() : SVGElement  ( IMAGE ) { }$/;"	f	language:C++	struct:CMU462::Image
+IMAGE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  IMAGE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Image : SVGElement {$/;"	s	language:C++	namespace:CMU462
+inc_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::inc_sample_rate() {$/;"	f	language:C++	class:CMU462::DrawSVG
+inc_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void inc_sample_rate();$/;"	p	language:C++	class:CMU462::DrawSVG
+info	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^string DrawSVG::info() {$/;"	f	language:C++	class:CMU462::DrawSVG
+info	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::string info ( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+init	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::init() {$/;"	f	language:C++	class:CMU462::DrawSVG
+init	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void init( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+init_pt	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  void init_pt(double a, double b, double c, double d, double e, double f)$/;"	f	language:C++	class:CMU462::Affine
+init_pt	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  void init_pt(double a, double b, double c, double d, double e, double f)$/;"	f	language:C++	class:CMU462::Affine
+init_V	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^vector<V*> init_V (FILE * pFile)$/;"	f	language:C++	namespace:CMU462
+irradiance_buffer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  float* irradiance_buffer;$/;"	m	language:C++	class:CMU462::SoftwareRendererImp
+iterations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  int iterations;$/;"	m	language:C++	struct:CMU462::SVG
+iterations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  int iterations;$/;"	m	language:C++	struct:CMU462::SVG
+key_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::key_event( char key ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+key_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void key_event( char key );$/;"	p	language:C++	class:CMU462::DrawSVG
+kMaxMipLevels	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^static const int kMaxMipLevels = 14;$/;"	m	language:C++	namespace:CMU462
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  virtual void l(FILE * pFile) =0;$/;"	p	language:C++	class:CMU462::V
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile){$/;"	f	language:C++	class:CMU462::V0
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  virtual void l(FILE * pFile) =0;$/;"	p	language:C++	class:CMU462::V
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V1
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V10
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V11
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V12
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V13
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V14
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V15
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V2
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V3
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V4
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V5
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V6
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V7
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V8
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile) {$/;"	f	language:C++	class:CMU462::V9
+l	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void l(FILE * pFile){$/;"	f	language:C++	class:CMU462::V0
+Line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Line() : SVGElement ( LINE ) { }  $/;"	f	language:C++	struct:CMU462::Line
+LINE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  LINE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Line : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Line() : SVGElement ( LINE ) { }  $/;"	f	language:C++	struct:CMU462::Line
+LINE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  LINE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Line : SVGElement {$/;"	s	language:C++	namespace:CMU462
+load	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^int SVGParser::load( const char* filename, SVG* svg, const char* iters) {$/;"	f	language:C++	class:CMU462::SVGParser
+load	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static int load( const char* filename, SVG* svg, const char* iters);$/;"	p	language:C++	class:CMU462::SVGParser
+load	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  void load(FILE * pFile)$/;"	f	language:C++	class:CMU462::V
+load	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static int load( const char* filename, SVG* svg, const char* iters);$/;"	p	language:C++	class:CMU462::SVGParser
+load	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void load(FILE * pFile)$/;"	f	language:C++	class:CMU462::V
+loadFile	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/main.cpp	/^int loadFile( DrawSVG* drawsvg, const char* path, const char* iters ) {$/;"	f	language:C++
+loadFile	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/main.cpp	/^int loadFile( DrawSVG* drawsvg, const char* path, const char* variations,  const char* iters ) {$/;"	f	language:C++
+loadPath	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/main.cpp	/^int loadPath( DrawSVG* drawsvg, const char* path, const char* iters) {$/;"	f	language:C++
+loadPath	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/main.cpp	/^int loadPath( DrawSVG* drawsvg, const char* path, const char* variations, const char* iters) {$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/main.cpp	/^int main( int argc, char** argv ) {$/;"	f	language:C++
+main	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/main.cpp	/^int main( int argc, char** argv ) {$/;"	f	language:C++
+max_irr	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  float max_irr;$/;"	m	language:C++	class:CMU462::SoftwareRendererImp
+method	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  RenderMethod method;$/;"	m	language:C++	class:CMU462::DrawSVG
+method	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  SampleMethod method;$/;"	m	language:C++	class:CMU462::Sampler2D
+MipLevel	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^struct MipLevel {$/;"	s	language:C++	namespace:CMU462
+mipmap	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  std::vector<MipLevel> mipmap;$/;"	m	language:C++	struct:CMU462::Texture
+miterLimit	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  float miterLimit;$/;"	m	language:C++	struct:CMU462::Style
+miterLimit	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  float miterLimit;$/;"	m	language:C++	struct:CMU462::Style
+msg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/main.cpp	11;"	d	language:C++	file:
+msg	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/main.cpp	11;"	d	language:C++	file:
+name	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^string DrawSVG::name() {$/;"	f	language:C++	class:CMU462::DrawSVG
+name	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::string name ( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+NEAREST	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  NEAREST,$/;"	e	language:C++	enum:CMU462::SampleMethod
+newTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::newTab( SVG* svg ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+newTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void newTab( SVG* svg );$/;"	p	language:C++	class:CMU462::DrawSVG
+NONE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  NONE = 0,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+NONE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  NONE = 0,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+norm_to_screen	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Matrix3x3 norm_to_screen;$/;"	m	language:C++	class:CMU462::DrawSVG
+osd	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::string osd;$/;"	m	language:C++	class:CMU462::DrawSVG
+parseElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseElement( XMLElement* xml, SVGElement* element ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseElement   ( XMLElement* xml, SVGElement* element );$/;"	p	language:C++	class:CMU462::SVGParser
+parseElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseElement   ( XMLElement* xml, SVGElement* element );$/;"	p	language:C++	class:CMU462::SVGParser
+parseEllipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseEllipse( XMLElement* xml, Ellipse* ellipse ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseEllipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseEllipse   ( XMLElement* xml, Ellipse*  ellipse     );$/;"	p	language:C++	class:CMU462::SVGParser
+parseEllipse	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseEllipse   ( XMLElement* xml, Ellipse*  ellipse     );$/;"	p	language:C++	class:CMU462::SVGParser
+parseGroup	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseGroup( XMLElement* xml, Group* group ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseGroup	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseGroup     ( XMLElement* xml, Group*    group       );$/;"	p	language:C++	class:CMU462::SVGParser
+parseGroup	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseGroup     ( XMLElement* xml, Group*    group       );$/;"	p	language:C++	class:CMU462::SVGParser
+parseImage	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseImage( XMLElement* xml, Image* image ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseImage	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseImage     ( XMLElement* xml, Image*    image       );$/;"	p	language:C++	class:CMU462::SVGParser
+parseImage	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseImage     ( XMLElement* xml, Image*    image       );$/;"	p	language:C++	class:CMU462::SVGParser
+parseLine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseLine( XMLElement* xml, Line* line ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseLine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseLine      ( XMLElement* xml, Line*     line        );$/;"	p	language:C++	class:CMU462::SVGParser
+parseLine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseLine      ( XMLElement* xml, Line*     line        );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePoint	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parsePoint( XMLElement* xml, Point* point ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parsePoint	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parsePoint     ( XMLElement* xml, Point*    point       );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePoint	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parsePoint     ( XMLElement* xml, Point*    point       );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePolygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parsePolygon( XMLElement* xml, Polygon* polygon ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parsePolygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parsePolygon   ( XMLElement* xml, Polygon*  polygon     );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePolygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parsePolygon   ( XMLElement* xml, Polygon*  polygon     );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePolyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parsePolyline( XMLElement* xml, Polyline* polyline ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parsePolyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parsePolyline  ( XMLElement* xml, Polyline* polyline    );$/;"	p	language:C++	class:CMU462::SVGParser
+parsePolyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parsePolyline  ( XMLElement* xml, Polyline* polyline    );$/;"	p	language:C++	class:CMU462::SVGParser
+parseRect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseRect( XMLElement* xml, Rect* rect ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseRect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseRect      ( XMLElement* xml, Rect*     rect        );$/;"	p	language:C++	class:CMU462::SVGParser
+parseRect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseRect      ( XMLElement* xml, Rect*     rect        );$/;"	p	language:C++	class:CMU462::SVGParser
+parseSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^void SVGParser::parseSVG( XMLElement* xml, SVG* svg ) {$/;"	f	language:C++	class:CMU462::SVGParser
+parseSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static void parseSVG       ( XMLElement* xml, SVG* svg );$/;"	p	language:C++	class:CMU462::SVGParser
+parseSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static void parseSVG       ( XMLElement* xml, SVG* svg );$/;"	p	language:C++	class:CMU462::SVGParser
+PI	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	11;"	d	language:C++	file:
+Point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Point() : SVGElement ( POINT ) { }$/;"	f	language:C++	struct:CMU462::Point
+POINT	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  POINT,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Point : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Point() : SVGElement ( POINT ) { }$/;"	f	language:C++	struct:CMU462::Point
+POINT	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  POINT,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Point : SVGElement {$/;"	s	language:C++	namespace:CMU462
+points	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  std::vector<Vector2D> points;$/;"	m	language:C++	struct:CMU462::Polygon
+points	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  std::vector<Vector2D> points;$/;"	m	language:C++	struct:CMU462::Polyline
+points	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  std::vector<Vector2D> points;$/;"	m	language:C++	struct:CMU462::Polygon
+points	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  std::vector<Vector2D> points;$/;"	m	language:C++	struct:CMU462::Polyline
+Polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Polygon() : SVGElement  ( POLYGON ) { }$/;"	f	language:C++	struct:CMU462::Polygon
+POLYGON	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  POLYGON,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Polygon : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Polygon() : SVGElement  ( POLYGON ) { }$/;"	f	language:C++	struct:CMU462::Polygon
+POLYGON	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  POLYGON,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Polygon	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Polygon : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Polyline() : SVGElement  ( POLYLINE ) { }$/;"	f	language:C++	struct:CMU462::Polyline
+POLYLINE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  POLYLINE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Polyline : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Polyline() : SVGElement  ( POLYLINE ) { }$/;"	f	language:C++	struct:CMU462::Polyline
+POLYLINE	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  POLYLINE,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Polyline	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Polyline : SVGElement {$/;"	s	language:C++	namespace:CMU462
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Image
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Point
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Rect
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Image
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Point
+position	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D position;$/;"	m	language:C++	struct:CMU462::Rect
+probability	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  double probability;$/;"	m	language:C++	class:CMU462::Affine
+probability	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  double probability;$/;"	m	language:C++	class:CMU462::Affine
+pt	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  double pt [6]; \/\/ post-transform$/;"	m	language:C++	class:CMU462::Affine
+pt	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  double pt [6]; \/\/ post-transform$/;"	m	language:C++	class:CMU462::Affine
+radius	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D radius;$/;"	m	language:C++	struct:CMU462::Ellipse
+radius	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D radius;$/;"	m	language:C++	struct:CMU462::Ellipse
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_image( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_image( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_image( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_image( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_image( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_image	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_image( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_line( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_line( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_line( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_line( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_line( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_line	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_line( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_point( float x, float y, Color color ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_point( float x, float y, Color color );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_point( float x, float y, Color color );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_point( float x, float y, Color color ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_point( float x, float y, Color color );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_point	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_point( float x, float y, Color color );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_triangle( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_triangle( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_triangle( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::rasterize_triangle( float x0, float y0,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_triangle( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+rasterize_triangle	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void rasterize_triangle( float x0, float y0,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+Rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Rect() : SVGElement ( RECT ) { }$/;"	f	language:C++	struct:CMU462::Rect
+RECT	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  RECT,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Rect : SVGElement {$/;"	s	language:C++	namespace:CMU462
+Rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Rect() : SVGElement ( RECT ) { }$/;"	f	language:C++	struct:CMU462::Rect
+RECT	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  RECT,$/;"	e	language:C++	enum:CMU462::e_SVGElementType
+Rect	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Rect : SVGElement {$/;"	s	language:C++	namespace:CMU462
+redraw	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::redraw() {$/;"	f	language:C++	class:CMU462::DrawSVG
+redraw	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void redraw();$/;"	p	language:C++	class:CMU462::DrawSVG
+regenerate_mipmap	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::regenerate_mipmap(size_t tab_index) {$/;"	f	language:C++	class:CMU462::DrawSVG
+regenerate_mipmap	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void regenerate_mipmap(size_t tab_index);$/;"	p	language:C++	class:CMU462::DrawSVG
+render	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::render() {$/;"	f	language:C++	class:CMU462::DrawSVG
+render	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void render( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+RenderMethod	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^enum RenderMethod {$/;"	g	language:C++	namespace:CMU462
+render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  unsigned char* render_target; $/;"	m	language:C++	class:CMU462::SoftwareRenderer
+render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  unsigned char* render_target; $/;"	m	language:C++	class:CMU462::SoftwareRenderer
+resize	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::resize( size_t width, size_t height ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+resize	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void resize( size_t width, size_t height );$/;"	p	language:C++	class:CMU462::DrawSVG
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::resolve( void ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void resolve( void );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void resolve( void );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::resolve( void ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void resolve( void );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+resolve	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void resolve( void );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+SampleMethod	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^typedef enum SampleMethod{$/;"	g	language:C++	namespace:CMU462
+SampleMethod	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^} SampleMethod;$/;"	t	language:C++	namespace:CMU462	typeref:enum:CMU462::SampleMethod
+sampler	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Sampler2D* sampler;$/;"	m	language:C++	class:CMU462::DrawSVG
+sampler	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  Sampler2D* sampler;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+sampler	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  Sampler2D* sampler;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+Sampler2D	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Sampler2D( SampleMethod method ) : method ( method ) { }$/;"	f	language:C++	class:CMU462::Sampler2D
+Sampler2D	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^class Sampler2D {$/;"	c	language:C++	namespace:CMU462
+Sampler2DImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Sampler2DImp( SampleMethod method = TRILINEAR ) : Sampler2D ( method ) { }$/;"	f	language:C++	class:CMU462::Sampler2DImp
+Sampler2DImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^class Sampler2DImp : public Sampler2D {$/;"	c	language:C++	namespace:CMU462
+Sampler2DRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Sampler2DRef( SampleMethod method = TRILINEAR ) : Sampler2D ( method ) { }$/;"	f	language:C++	class:CMU462::Sampler2DRef
+Sampler2DRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^class Sampler2DRef : public Sampler2D {$/;"	c	language:C++	namespace:CMU462
+sampler_imp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Sampler2D* sampler_imp;$/;"	m	language:C++	class:CMU462::DrawSVG
+sampler_ref	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Sampler2D* sampler_ref;$/;"	m	language:C++	class:CMU462::DrawSVG
+sample_bilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^Color Sampler2DImp::sample_bilinear(Texture& tex, $/;"	f	language:C++	class:CMU462::Sampler2DImp
+sample_bilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_bilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DImp
+sample_bilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_bilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DRef
+sample_bilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  virtual Color sample_bilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2D
+sample_buffer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+sample_buffer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+sample_nearest	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^Color Sampler2DImp::sample_nearest(Texture& tex, $/;"	f	language:C++	class:CMU462::Sampler2DImp
+sample_nearest	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_nearest(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DImp
+sample_nearest	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_nearest(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DRef
+sample_nearest	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  virtual Color sample_nearest(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2D
+sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  size_t sample_rate;$/;"	m	language:C++	class:CMU462::DrawSVG
+sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  size_t sample_rate;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  size_t sample_rate;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+sample_trilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^Color Sampler2DImp::sample_trilinear(Texture& tex, $/;"	f	language:C++	class:CMU462::Sampler2DImp
+sample_trilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_trilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DImp
+sample_trilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  Color sample_trilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2DRef
+sample_trilinear	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  virtual Color sample_trilinear(Texture& tex, $/;"	p	language:C++	class:CMU462::Sampler2D
+save	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  static int save( const char* filename, const SVG* svg );$/;"	p	language:C++	class:CMU462::SVGParser
+save	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  static int save( const char* filename, const SVG* svg );$/;"	p	language:C++	class:CMU462::SVGParser
+scroll_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::scroll_event( float offset_x, float offset_y ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+scroll_event	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void scroll_event( float offset_x, float offset_y );$/;"	p	language:C++	class:CMU462::DrawSVG
+setRenderMethod	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  inline void setRenderMethod( RenderMethod method ) {    $/;"	f	language:C++	class:CMU462::DrawSVG
+setTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^void DrawSVG::setTab( size_t tab_index ) {$/;"	f	language:C++	class:CMU462::DrawSVG
+setTab	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  void setTab(size_t tab_index);$/;"	p	language:C++	class:CMU462::DrawSVG
+set_canvas_to_screen	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  inline void set_canvas_to_screen( Matrix3x3 canvas_to_screen ) {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+set_canvas_to_screen	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  inline void set_canvas_to_screen( Matrix3x3 canvas_to_screen ) {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::set_render_target( unsigned char* render_target,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  virtual void set_render_target( unsigned char* render_target,$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void set_render_target( unsigned char* target_buffer,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void set_render_target( unsigned char* target_buffer,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::set_render_target( unsigned char* render_target,$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  virtual void set_render_target( unsigned char* render_target,$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void set_render_target( unsigned char* target_buffer,$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+set_render_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void set_render_target( unsigned char* target_buffer,$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::set_sample_rate( size_t sample_rate ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  virtual void set_sample_rate( size_t sample_rate ) = 0;$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void set_sample_rate( size_t sample_rate );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  void set_sample_rate( size_t sample_rate );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^void SoftwareRendererImp::set_sample_rate( size_t sample_rate ) {$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  virtual void set_sample_rate( size_t sample_rate ) = 0;$/;"	p	language:C++	class:CMU462::SoftwareRenderer
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void set_sample_rate( size_t sample_rate );$/;"	p	language:C++	class:CMU462::SoftwareRendererImp
+set_sample_rate	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  void set_sample_rate( size_t sample_rate );$/;"	p	language:C++	class:CMU462::SoftwareRendererRef
+set_tex_sampler	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  inline void set_tex_sampler( Sampler2D* sampler ) {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+set_tex_sampler	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  inline void set_tex_sampler( Sampler2D* sampler ) {$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+set_viewbox	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/viewport.cpp	/^void ViewportImp::set_viewbox( float x, float y, float span ) {$/;"	f	language:C++	class:CMU462::ViewportImp
+show_diff	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  bool show_diff;$/;"	m	language:C++	class:CMU462::DrawSVG
+show_zoom	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  bool show_zoom;$/;"	m	language:C++	class:CMU462::DrawSVG
+sign	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^int sign(float x)$/;"	f	language:C++	namespace:CMU462
+sign	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^int sign(float x)$/;"	f	language:C++	namespace:CMU462
+Software	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  Software$/;"	e	language:C++	enum:CMU462::RenderMethod
+SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRenderer( ) : sample_rate (1) { }$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRenderer : public SVGRenderer {$/;"	c	language:C++	namespace:CMU462
+SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRenderer( ) : sample_rate (1) { }$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRenderer : public SVGRenderer {$/;"	c	language:C++	namespace:CMU462
+SoftwareRendererImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRendererImp( ) : SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+SoftwareRendererImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRendererImp : public SoftwareRenderer {$/;"	c	language:C++	namespace:CMU462
+SoftwareRendererImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRendererImp( ) : SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRendererImp
+SoftwareRendererImp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRendererImp : public SoftwareRenderer {$/;"	c	language:C++	namespace:CMU462
+SoftwareRendererRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRendererRef( ) : SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRendererRef
+SoftwareRendererRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRendererRef : public SoftwareRenderer {$/;"	c	language:C++	namespace:CMU462
+SoftwareRendererRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  SoftwareRendererRef( ) : SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRendererRef
+SoftwareRendererRef	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^class SoftwareRendererRef : public SoftwareRenderer {$/;"	c	language:C++	namespace:CMU462
+software_renderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  SoftwareRenderer* software_renderer;$/;"	m	language:C++	class:CMU462::DrawSVG
+software_renderer_imp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  SoftwareRenderer* software_renderer_imp;$/;"	m	language:C++	class:CMU462::DrawSVG
+software_renderer_ref	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  SoftwareRenderer* software_renderer_ref;$/;"	m	language:C++	class:CMU462::DrawSVG
+ss_target	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.cpp	/^unsigned char* ss_target;$/;"	m	language:C++	namespace:CMU462	file:
+strokeColor	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Color strokeColor;$/;"	m	language:C++	struct:CMU462::Style
+strokeColor	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Color strokeColor;$/;"	m	language:C++	struct:CMU462::Style
+strokeWidth	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  float strokeWidth;$/;"	m	language:C++	struct:CMU462::Style
+strokeWidth	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  float strokeWidth;$/;"	m	language:C++	struct:CMU462::Style
+style	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Style style;$/;"	m	language:C++	struct:CMU462::SVGElement
+Style	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct Style {$/;"	s	language:C++	namespace:CMU462
+style	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Style style;$/;"	m	language:C++	struct:CMU462::SVGElement
+Style	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct Style {$/;"	s	language:C++	namespace:CMU462
+SVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct SVG {$/;"	s	language:C++	namespace:CMU462
+SVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct SVG {$/;"	s	language:C++	namespace:CMU462
+SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  SVGElement( SVGElementType _type ) $/;"	f	language:C++	struct:CMU462::SVGElement
+SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^struct SVGElement {$/;"	s	language:C++	namespace:CMU462
+SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  SVGElement( SVGElementType _type ) $/;"	f	language:C++	struct:CMU462::SVGElement
+SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^struct SVGElement {$/;"	s	language:C++	namespace:CMU462
+SVGElementType	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^} SVGElementType;$/;"	t	language:C++	namespace:CMU462	typeref:enum:CMU462::e_SVGElementType
+SVGElementType	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^} SVGElementType;$/;"	t	language:C++	namespace:CMU462	typeref:enum:CMU462::e_SVGElementType
+SVGParser	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^class SVGParser {$/;"	c	language:C++	namespace:CMU462
+SVGParser	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^class SVGParser {$/;"	c	language:C++	namespace:CMU462
+t	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  double t [6]; \/\/ transform $/;"	m	language:C++	class:CMU462::Affine
+t	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  double t [6]; \/\/ transform $/;"	m	language:C++	class:CMU462::Affine
+tabs	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<SVG*> tabs; size_t current_tab;$/;"	m	language:C++	class:CMU462::DrawSVG
+target_h	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  size_t target_w; size_t target_h;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+target_h	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  size_t target_w; size_t target_h;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+target_w	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  size_t target_w; size_t target_h;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+target_w	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  size_t target_w; size_t target_h;$/;"	m	language:C++	class:CMU462::SoftwareRenderer
+temp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^struct temp {$/;"	s	language:C++	namespace:CMU462	file:
+tex	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Texture tex;$/;"	m	language:C++	struct:CMU462::Image
+tex	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Texture tex;$/;"	m	language:C++	struct:CMU462::Image
+texels	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  std::vector<unsigned char> texels;$/;"	m	language:C++	struct:CMU462::MipLevel
+Texture	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^struct Texture {$/;"	s	language:C++	namespace:CMU462
+to	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Vector2D to;$/;"	m	language:C++	struct:CMU462::Line
+to	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Vector2D to;$/;"	m	language:C++	struct:CMU462::Line
+transform	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  Matrix3x3 transform;$/;"	m	language:C++	struct:CMU462::SVGElement
+transform	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  Matrix3x3 transform;$/;"	m	language:C++	struct:CMU462::SVGElement
+TRILINEAR	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  TRILINEAR$/;"	e	language:C++	enum:CMU462::SampleMethod
+type	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  SVGElementType type;$/;"	m	language:C++	struct:CMU462::SVGElement
+type	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  SVGElementType type;$/;"	m	language:C++	struct:CMU462::SVGElement
+uint8_to_float	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.cpp	/^inline void uint8_to_float( float dst[4], unsigned char* src ) {$/;"	f	language:C++	namespace:CMU462
+update_viewbox	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/viewport.cpp	/^void ViewportImp::update_viewbox( float dx, float dy, float scale ) { $/;"	f	language:C++	class:CMU462::ViewportImp
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V0
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  virtual Vector2D v(Vector2D p) =0;$/;"	p	language:C++	class:CMU462::V
+V	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^class V {$/;"	c	language:C++	namespace:CMU462
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.cpp	/^  Vector2D v;$/;"	m	language:C++	struct:CMU462::temp	file:
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V0
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V1
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V10
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V11
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V12
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V13
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V14
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V15
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V2
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V3
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V4
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V5
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V6
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V7
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V8
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  Vector2D v(Vector2D p){$/;"	f	language:C++	class:CMU462::V9
+v	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  virtual Vector2D v(Vector2D p) =0;$/;"	p	language:C++	class:CMU462::V
+V	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V {$/;"	c	language:C++	namespace:CMU462
+V0	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^class V0 : public V {$/;"	c	language:C++	namespace:CMU462
+V0	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V0 : public V {$/;"	c	language:C++	namespace:CMU462
+V1	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V1 : public V {$/;"	c	language:C++	namespace:CMU462
+V10	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V10 : public V {$/;"	c	language:C++	namespace:CMU462
+V11	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V11 : public V {$/;"	c	language:C++	namespace:CMU462
+V12	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V12 : public V {$/;"	c	language:C++	namespace:CMU462
+V13	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V13 : public V {$/;"	c	language:C++	namespace:CMU462
+V14	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V14 : public V {$/;"	c	language:C++	namespace:CMU462
+V15	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V15 : public V {$/;"	c	language:C++	namespace:CMU462
+V2	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V2 : public V {$/;"	c	language:C++	namespace:CMU462
+V3	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V3 : public V {$/;"	c	language:C++	namespace:CMU462
+V4	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V4 : public V {$/;"	c	language:C++	namespace:CMU462
+V5	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V5 : public V {$/;"	c	language:C++	namespace:CMU462
+V6	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V6 : public V {$/;"	c	language:C++	namespace:CMU462
+V7	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V7 : public V {$/;"	c	language:C++	namespace:CMU462
+V8	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V8 : public V {$/;"	c	language:C++	namespace:CMU462
+V9	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^class V9 : public V {$/;"	c	language:C++	namespace:CMU462
+variations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  std::vector<V> variations;$/;"	m	language:C++	class:CMU462::Affine
+variations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  std::vector<V*> variations;$/;"	m	language:C++	class:CMU462::Affine
+variations	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  const char* variations;$/;"	m	language:C++	struct:CMU462::SVG
+viewport_imp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<Viewport*> viewport_imp;$/;"	m	language:C++	class:CMU462::DrawSVG
+viewport_ref	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<Viewport*> viewport_ref;$/;"	m	language:C++	class:CMU462::DrawSVG
+viewport_save_imp	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<Matrix3x3> viewport_save_imp;$/;"	m	language:C++	class:CMU462::DrawSVG
+viewport_save_ref	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  std::vector<Matrix3x3> viewport_save_ref;$/;"	m	language:C++	class:CMU462::DrawSVG
+w	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+w	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  std::vector<unsigned char> sample_buffer; int w; int h;$/;"	m	language:C++	class:CMU462::SoftwareRendererRef
+weight	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  double weight;$/;"	m	language:C++	class:CMU462::V
+weight	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  double weight;$/;"	m	language:C++	class:CMU462::V
+weight_to_one	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/variations.h	/^  void weight_to_one()$/;"	f	language:C++	class:CMU462::V
+width	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  size_t width, height;$/;"	m	language:C++	class:CMU462::DrawSVG
+width	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  float width, height;$/;"	m	language:C++	struct:CMU462::SVG
+width	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  size_t width; $/;"	m	language:C++	struct:CMU462::MipLevel
+width	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  size_t width;$/;"	m	language:C++	struct:CMU462::Texture
+width	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  float width, height;$/;"	m	language:C++	struct:CMU462::SVG
+x	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  int x, y;$/;"	m	language:C++	class:CMU462::V0
+y	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/variations.h	/^  int x, y;$/;"	m	language:C++	class:CMU462::V0
+~Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/affine.h	/^  ~Affine()$/;"	f	language:C++	class:CMU462::Affine
+~Affine	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/affine.h	/^  ~Affine()$/;"	f	language:C++	class:CMU462::Affine
+~DrawSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.cpp	/^DrawSVG::~DrawSVG() {$/;"	f	language:C++	class:CMU462::DrawSVG
+~DrawSVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/drawsvg.h	/^  ~DrawSVG( void );$/;"	p	language:C++	class:CMU462::DrawSVG
+~Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^Group::~Group() {$/;"	f	language:C++	class:CMU462::Group
+~Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  ~Group();$/;"	p	language:C++	struct:CMU462::Group
+~Group	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  ~Group();$/;"	p	language:C++	struct:CMU462::Group
+~Sampler2D	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/texture.h	/^  ~Sampler2D();$/;"	p	language:C++	class:CMU462::Sampler2D
+~SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/software_renderer.h	/^  virtual ~SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+~SoftwareRenderer	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/software_renderer.h	/^  virtual ~SoftwareRenderer( ) { }$/;"	f	language:C++	class:CMU462::SoftwareRenderer
+~SVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.cpp	/^SVG::~SVG() {$/;"	f	language:C++	class:CMU462::SVG
+~SVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  ~SVG();$/;"	p	language:C++	struct:CMU462::SVG
+~SVG	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  ~SVG();$/;"	p	language:C++	struct:CMU462::SVG
+~SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/asst1_drawsvg/src/svg.h	/^  virtual ~SVGElement() { }$/;"	f	language:C++	struct:CMU462::SVGElement
+~SVGElement	/afs/andrew.cmu.edu/usr2/ssidique/private/15462/proj/asst1_drawsvg/src/svg.h	/^  virtual ~SVGElement() { }$/;"	f	language:C++	struct:CMU462::SVGElement

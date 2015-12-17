@@ -69,7 +69,7 @@ class SoftwareRendererImp : public SoftwareRenderer {
   SoftwareRendererImp( ) : SoftwareRenderer( ) { }
 
   // draw an svg input to render target
-  void draw_svg( SVG& svg );
+  void draw_svg( SVG& svg);
 
   // set sample rate
   void set_sample_rate( size_t sample_rate );
@@ -77,6 +77,10 @@ class SoftwareRendererImp : public SoftwareRenderer {
   // set render target
   void set_render_target( unsigned char* target_buffer,
                           size_t width, size_t height );
+
+  float* irradiance_buffer;
+
+  float max_irr;
 
  private:
 

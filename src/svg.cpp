@@ -28,7 +28,7 @@ SVG::~SVG() {
 
 // Parser //
 
-int SVGParser::load( const char* filename, SVG* svg ) {
+int SVGParser::load( const char* filename, SVG* svg, const char* iters) {
 
   ifstream in( filename );
   if( !in.is_open() ) {

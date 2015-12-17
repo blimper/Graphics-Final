@@ -10,19 +10,26 @@ using namespace CMU462;
 
 #define msg(s) cerr << "[DrawSVG] " << s << endl;
 
-int loadFile( DrawSVG* drawsvg, const char* path ) {
+int loadFile( DrawSVG* drawsvg, const char* path, const char* variations,  const char* iters ) {
 
-  SVG* svg = new SVG();
-
-  if( SVGParser::load( path, svg ) < 0) {
+    /*
+  if( SVGParser::load( path, svg, path ) < 0) {
     delete svg;
     return -1;
   }
+  */
+
+  SVG* svg = new SVG();
+  svg->file = path;
+  svg->variations = variations;
+  svg->iterations = atoi(iters);
+
+
   
   drawsvg->newTab( svg );
   return 0;
 }
-
+/*
 int loadDirectory( DrawSVG* drawsvg, const char* path ) {
 
   DIR *dir = opendir (path);
@@ -62,8 +69,8 @@ int loadDirectory( DrawSVG* drawsvg, const char* path ) {
   msg("Could not open directory" << path);
   return -1;
 }
-
-int loadPath( DrawSVG* drawsvg, const char* path) {
+*/
+int loadPath( DrawSVG* drawsvg, const char* path, const char* variations, const char* iters) {
 
   struct stat st;
 
@@ -73,14 +80,16 @@ int loadPath( DrawSVG* drawsvg, const char* path) {
     return -1;
   }
 
+  /*
   // load directory
   if( st.st_mode & S_IFDIR ) {
     return loadDirectory(drawsvg, path);
   } 
+  */
 
   // load file
   if( st.st_mode & S_IFREG ) {
-    return loadFile(drawsvg, path);
+    return loadFile(drawsvg, path, variations,  iters);
   }
 
   msg("Invalid path: " << path);
@@ -99,10 +108,10 @@ int main( int argc, char** argv ) {
   viewer.set_renderer(drawsvg);
 
   // load tests
-  if( argc == 2 ) {
-    if (loadPath(drawsvg, argv[1]) < 0) exit(0);
+  if( argc == 4 ) {
+    if (loadPath(drawsvg, argv[1], argv[2], argv[3]) < 0) exit(0);
   } else {
-    msg("Usage: drawsvg <path to test file or directory>"); exit(0);
+    msg("Usage: drawsvg <path to IFS> <path to variation file> <iterations>"); exit(0);
   }
 
   // init viewer
