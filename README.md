@@ -20,11 +20,13 @@ In order to add some interesting color to the fractal's background, we implement
 # Variations:
 The basic idea of the fractal flame algorithm is that after we apply the given affine functions, we run the output through another series of functions that represent variations in our fractals. These variations are predefined with varying amounts of inputs. With our given variation files, we can take a weighted sum of each of the variation functions. The files located in the "variations" folder supply the IFS renderer with information on how to weight these variations.
 variation files follow this format:
+'''
 1
 0
 0
 0
 ...
+'''
 where the nth number represents the weight of the nth variation (starting at n = 0). For a variation file to be valid, it should have k numbers, where k is the number of variations implemented (currently 16). In addition, all of the numbers should add up to 1.
 
 # Coloring:
@@ -32,7 +34,7 @@ We assign a color to each affine function in an IFS file. To color the IFS, we c
 
 #IFS File Format
 IFS files (located in the IFS folder) follow the following format:
-
+'''
 n                  (The number of affine functions)
 
 a1 b1 c1 d1 e1 f1  (The six coefficients of the affine function)
@@ -48,6 +50,6 @@ apost2 bpost2 cpost2 dpost2 epost2
 ...
 
 a b c d e f (Final Affine Transform)
-
+'''
 
 
